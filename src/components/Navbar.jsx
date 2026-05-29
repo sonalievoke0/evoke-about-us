@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 
 const Navbar = () => {
-  const [isDark, setIsDark] = useState(false);
+  const [isDark, setIsDark] = useState(true);
 
   useEffect(() => {
     if (isDark) {

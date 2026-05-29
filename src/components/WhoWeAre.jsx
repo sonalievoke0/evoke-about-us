@@ -33,35 +33,38 @@ const WhoWeAre = () => {
           {/* Left Side: Content Box */}
           <div className="who-we-are-content-side">
             <h2 className="who-we-are-title">
-              Evoke AI: Enterprise<br />Automation Framework
+              ABOUT EVOKE AI
             </h2>
 
             <div className="who-we-are-text">
               <p>
-                Evoke AI simplifies intelligent automation and scalable technology integration through a user-friendly orchestration layer. Its AI agents learn from your unique data to boost efficiency and engagement. By eliminating the need for deep technical knowledge,
-                the platform—<b>founded in 2022</b>—allows teams to manage multiple brand profiles and workflows seamlessly from a single interface.
+                EVOKE AI is an enterprise AI platform -<b>Founded in 2022</b>- that helps businesses simplify intelligent automation, AI integration, and workflow management through one user-friendly orchestration layer.
+                Our platform enables teams to build, manage, and scale AI agents without deep technical knowledge. EVOKE AI agents learn from your business data, follow your brand guidelines, and support multiple workflows from a single interface.
               </p>
-
 
               <div className="who-we-are-features">
                 <div className="feature-group">
                   <h4>Core Services</h4>
                   <ul>
-                    <li><strong>AI Services:</strong> Smart agents tailored to your business guidelines.</li>
-                    <li><strong>Automation Services:</strong> End-to-end workflows to streamline operations.</li>
-                    <li><strong>Chatbot Services:</strong> Conversational tools to enhance customer support.</li>
-                    <li><strong>Consultancy:</strong> Expert guidance for AI integration and tech scaling.</li>
+                    <li><strong>AI Services:</strong> Smart AI agents tailored to your business needs and guidelines.</li>
+                    <li><strong>Automation Services:</strong> End-to-end workflow automation to reduce manual effort.</li>
+                    <li><strong>Chatbot Services:</strong> Conversational AI tools for customer support and lead handling.</li>
+                    <li><strong>Consultancy:</strong> Expert guidance for AI adoption, integration, and technology scaling.</li>
                   </ul>
                 </div>
 
                 <div className="feature-group">
-                  <p>
-                    The framework features several specialized tools to power these capabilities. NOVA handles automated email marketing and campaign optimization, while AEON serves as a sophisticated, no-code chatbot builder for rapid deployment. For knowledge management, ORION facilitates the fast creation of educational and training content,
-                    and CIPHER ensures operational safety by conducting comprehensive cybersecurity assessments.
-                  </p>
+                  <h4>Our AI Agent Suite</h4>
+                  <p style={{ fontSize: '0.9rem', marginBottom: '0.5rem' }}>EVOKE AI is powered by specialized tools designed for different business needs:</p>
+                  <ul>
+                    <li><strong>NOVA:</strong> AI agent for automated email marketing and campaign optimization.</li>
+                    <li><strong>AEON:</strong> No-code chatbot builder for fast deployment and customer interaction.</li>
+                    <li><strong>ORION:</strong> AI tool for creating educational, training, and knowledge content.</li>
+                    <li><strong>CIPHER:</strong> Cybersecurity assessment agent for operational safety and risk review.</li>
+                  </ul>
                 </div>
-
               </div>
+
             </div>
 
             <div className="who-we-are-divider"></div>

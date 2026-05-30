@@ -14,22 +14,24 @@ const teamData = {
     id: 1,
     name: "COL SUKHPAL SINGH KHETARPAL",
     designation: "VICE PRESIDENT",
+    content: "Former Army officer leveraging 38+ years of leadership to bridge industry, academia, and sustainable ESG initiatives.",
     image: "/colsir.png",
   },
   lead: {
     id: 2,
     name: "GULADAB BAWA",
-    designation: "TEAM HEAD",
+    designation: "HEAD OF AI-DIVISION",
+    content: "M.S. in Artificial Intelligence & Robotics",
+
     image: "/guladab.png",
   },
   members: [
-    { id: 3, name: "JYOTI KHETWAL", designation: "DATA SCIENTIST", image: "/jyoti.png" },
-    { id: 4, name: "ETHAN BLACKWELL", designation: "DATA PRIVACY STRATEGIST", image: "/vikas.png" },
-    { id: 5, name: "SAUMYA  AGARWAL", designation: "AI DEVELOPER", image: "/saumya.png" },
-    { id: 6, name: "DAVID THORNE", designation: "INTERNATIONAL ADVISOR", image: "/david.png" },
-    { id: 7, name: "ADITI MEHRA", designation: "FULL-STACK DEVELOPER", image: "/aditi.png" },
-    { id: 8, name: "CLAIRE KENSINGTAN", designation: "AI Integration Architect", image: "mia.png" },
-  ]
+    { id: 3, name: "ETHAN BLACKWELL", designation: "DATA PRIVACY STRATEGIST", image: "/vikas.png", content: "Master of Science (M.S.) in Cybersecurity & Data Governance" },
+    { id: 4, name: "JYOTI KHETWAL", designation: "DATA SCIENTIST", image: "/jyoti.png", content: "M.Tech in Data Science & Advanced Analytics" },
+    { id: 5, name: "SAUMYA  AGARWAL", designation: "AI DEVELOPER", image: "/saumya.png", content: "B.Tech in computer science" },
+    { id: 6, name: "DAVID THORNE", designation: "MARKETING HEAD", image: "/david.png", content: "Master of Business Administration (MBA) in International Marketing & Brand Strategy" },
+    { id: 7, name: "ADITI MEHRA", designation: "FULL-STACK DEVELOPER", image: "/aditi.png", content: "B.Tech in Computer Science & Engineering" },
+    { id: 8, name: "CLAIRE KENSINGTAN", designation: "AI Integration Architect", image: "mia.png", content: "M.Tech in Enterprise Software Architecture & Systems Engineering" },]
 };
 
 const allMembers = [

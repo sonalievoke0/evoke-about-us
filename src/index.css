@@ -873,15 +873,26 @@ body.dark .who-we-are-image-side {
 .team-designation {
   font-size: 0.85rem;
   font-weight: 500;
-  color: #64748b;
+  color: #111827;
   margin-bottom: 0.75rem;
   text-transform: none;
 }
 
 .team-content {
   font-size: 0.8rem;
-  color: #64748b;
+  color: #111827;
   line-height: 1.5;
+  margin-bottom: 0;
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.4s ease-in-out;
+}
+
+.team-card:hover .team-content {
+  opacity: 1;
+  max-height: 200px;
+  margin-top: 0.25rem;
   margin-bottom: 0.75rem;
 }
 
@@ -911,7 +922,7 @@ body.dark .team-name {
 
 body.dark .team-designation,
 body.dark .team-content {
-  color: #94a3b8;
+  color: #e2e8f0;
 }
 
 body.dark .team-linkedin {
@@ -940,10 +951,6 @@ body.dark .carousel-btn:hover {
 }
 
 body.dark .team-name {
-  color: #ffffff;
-}
-
-body.dark .team-content {
   color: #ffffff;
 }
 

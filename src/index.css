@@ -887,6 +887,7 @@ body.dark .who-we-are-image-side {
   max-height: 0;
   overflow: hidden;
   transition: all 0.4s ease-in-out;
+  text-transform: uppercase;
 }
 
 .team-card:hover .team-content {
@@ -1560,14 +1561,13 @@ body.dark .why-evoke-line {
     padding: 2rem;
     box-shadow: 0 10px 25px rgba(0,0,0,0.1);
   }
-  .vm-panel-mission {
-    background: rgba(255, 255, 255, 0.9);
-  }
+  .vm-panel-mission,
   .vm-panel-vision {
-    background: linear-gradient(135deg, #06b6d4 0%, #10b981 100%);
+    background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
   }
-  body.dark .vm-panel-mission {
-    background: #1e293b;
+  body.dark .vm-panel-mission,
+  body.dark .vm-panel-vision {
+    background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%);
   }
   .vm-content-mission,
   .vm-content-vision {
@@ -1579,6 +1579,7 @@ body.dark .why-evoke-line {
     align-items: center;
     text-align: center;
     justify-content: flex-start;
+    color: #ffffff;
   }
   .vm-icon-wrap {
     margin-bottom: 1rem;
@@ -1589,6 +1590,12 @@ body.dark .why-evoke-line {
   }
   .vm-text {
     max-width: 100%;
+  }
+  .mission-title,
+  .vision-title,
+  .mission-text,
+  .vision-text {
+    color: #ffffff !important;
   }
 
   /* Team auto horizontal scroller */

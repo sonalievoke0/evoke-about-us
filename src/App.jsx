@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from './components/Navbar';
+import Hero from './components/Hero';
 import WhoWeAre from './components/WhoWeAre';
 import MissionCards from './components/MissionCards';
 import WhyEvoke from './components/WhyEvoke';
@@ -11,9 +12,10 @@ function App() {
   return (
     <div>
       <Navbar />
+      <Hero />
       <WhoWeAre />
-      <MissionCards />
       <WhyEvoke />
+      <MissionCards />
       <Stats />
       <Team />
       <GlobalPresence />
